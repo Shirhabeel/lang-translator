@@ -10,7 +10,15 @@ class LanguageTranslationPage extends StatefulWidget {
 }
 
 class _LanguageTranslationPageState extends State<LanguageTranslationPage> {
-  var languages = ['English', 'Hindi', 'Spanish', 'French', 'German', 'Urdu'];
+  var languages = [
+    'English',
+    'Hindi',
+    'Spanish',
+    'French',
+    'German',
+    'Urdu',
+    'Arabic'
+  ];
 
   var originLang = 'From';
   var targetLang = 'To';
@@ -47,6 +55,8 @@ class _LanguageTranslationPageState extends State<LanguageTranslationPage> {
       return 'de';
     } else if (language == 'Urdu') {
       return 'ur';
+    } else if (language == 'Arabic') {
+      return 'ar';
     } else {
       return '--';
     }
