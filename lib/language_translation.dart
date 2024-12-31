@@ -57,6 +57,8 @@ class _LanguageTranslationPageState extends State<LanguageTranslationPage> {
       return 'ur';
     } else if (language == 'Arabic') {
       return 'ar';
+    } else if (language == 'Russian') {
+      return 'ru';
     } else {
       return '--';
     }
